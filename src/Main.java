@@ -8,7 +8,9 @@ public class Main {
 
         // Primeira Tela
         jogo.velhaZerado(); // Reinicia o tabuleiro antes do loop começar
+
         do {
+            System.out.println("\nBem vindo ao Jogo da Velha, Boa sorte jogador!");
             jogo.mostrarTela();
 
             // Jogadas do jogador
