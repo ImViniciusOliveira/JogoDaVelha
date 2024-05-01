@@ -10,28 +10,38 @@ Bem-vindo ao meu jogo da velha em Java! Este é um projeto simples e divertido q
 
    Baixe o código-fonte do jogo da velha em Java [aqui](https://github.com/ImViniciusOliveira/JogoDaVelha) e extraia os arquivos em uma pasta de sua escolha.
 
+
 2. **Localize os Arquivos do Jogo:**
 
-   Abra o Prompt de Comando (cmd) e navegue até a pasta onde os arquivos do jogo estão localizados.
+   Abra o Prompt de Comando (cmd) e navegue até a pasta onde os arquivos do jogo estão localizados e entre na pasta src.
 
-3. **Execute o Jogo:**
 
-   Dentro da pasta do projeto, navegue até a pasta onde os arquivos compilados estão localizados, que estara na pasta `JogoDaVelha\out\production\JogoDaVelha`, você pode acessar essa pasta com o seguinte comando:
+3. **Compile o Código-fonte:**
+
+   Dentro da pasta src, compile o código-fonte do jogo da velha executando o seguinte comando:
 
     ```bash
-    cd JogoDaVelha\out\production\JogoDaVelha
+    javac Main.java
     ```
 
-   Em seguida, execute o jogo da velha com o seguinte comando:
+   Isso criará o arquivo Main.class na mesma pasta.
+
+
+4. **Execute o Jogo:**
+
+   Agora, execute o jogo da velha com o seguinte comando:
 
     ```bash
     java Main
     ```
-3. **Jogar**: Siga as instruções apresentadas no terminal para fazer suas jogadas. O jogo indicará quando for sua vez e mostrará o tabuleiro atualizado após cada jogada.
+   
+5. **Jogar**: Siga as instruções apresentadas no terminal para fazer suas jogadas. O jogo indicará quando for sua vez e mostrará o tabuleiro atualizado após cada jogada.
 
-4. **Ganhe ou Empate**: Continue jogando até que um jogador vença ou o jogo termine em empate. O placar será exibido após cada jogo para acompanhar sua pontuação.
 
-5. **Jogar Novamente**: Após o término de cada jogo, você terá a opção de jogar novamente. Basta responder à pergunta com "S" para sim ou "N" para não.
+6. **Ganhe ou Empate**: Continue jogando até que um jogador vença ou o jogo termine em Velha. O placar será exibido após cada jogo para acompanhar sua pontuação.
+
+
+7. **Jogar Novamente**: Após o término de cada jogo, você terá a opção de jogar novamente. Basta responder à pergunta com "S" para sim ou "N" para não.
 
 ## Características
 
